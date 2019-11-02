@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.kaggleusercontent.com/kf/22900273/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..wiYAFOKvjwmuaN1_fDNufQ.QuVh_Wg_FwdwkkurXHCwd4mgQnB319SgsZWxAjNg4iyf9aUswkx57lNNkokEvDTl090zV-fq8neGllKA6ngMOD6BQzpAmQtZD6OS4kQqjnul6AE1FMdR2ztqNn-Y1-Hrl6RHABZXwBdGiemo_Lb47fR7usYZSUzKdk7-OjrLVdA.XXjXY3E1gk5p-WsvMirtrw/stage1.pth'
+export_file_name = 'stage1.pth'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['cat', 'dog']
 path = Path(__file__).parent
 
 app = Starlette()
